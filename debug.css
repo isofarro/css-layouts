@@ -26,6 +26,10 @@ body {
 }
 
 .block {
+	background-color: #9d9;
+	height: 48px;
+}
+#content .block {
 	background-color: #0c0;
 	height: 48px;
 }
