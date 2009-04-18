@@ -1,0 +1,13 @@
+body {
+	background-color: #666;
+}
+
+#header, #footer {
+	height: 48px;
+	background-color: #ccc;
+}
+
+#content, #related {
+	height: 96px;
+	background-color: #ddd;
+}

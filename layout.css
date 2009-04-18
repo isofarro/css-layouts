@@ -1,0 +1,35 @@
+/****************************************************************************
+*
+* Page layout
+*
+****************************************************************************/
+
+#page {
+	background: #fff;
+	color: #4e4e4e;
+	width: 970px;
+	margin: 24px auto;
+	overflow: hidden;
+	padding: 5px;
+}
+
+#header, #footer {
+	float: left;
+	width: 960px;
+	clear: both;
+	margin: 5px;
+}
+
+#content {
+	float: left;
+	width: 640px;
+	margin: 5px;
+}
+
+#related {
+	color: #666;
+	float: left;
+	width: 310px;
+	margin: 5px;
+}
+
