@@ -6,30 +6,27 @@
 
 #page {
 	background: #fff;
-	color: #4e4e4e;
 	width: 970px;
 	margin: 24px auto;
 	overflow: hidden;
 	padding: 5px;
 }
 
-#header, #footer {
+#header, #footer, #content, #related {
 	float: left;
+	margin: 5px;
+}
+
+#header, #footer {
 	width: 960px;
 	clear: both;
-	margin: 5px;
 }
 
 #content {
-	float: left;
 	width: 640px;
-	margin: 5px;
 }
 
 #related {
-	color: #666;
-	float: left;
 	width: 310px;
-	margin: 5px;
 }
 
