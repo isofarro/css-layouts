@@ -7,16 +7,25 @@ body {
 	background-color: #ccc;
 }
 
-#content, #related {
-	height: 256px;
+#content {
+}
+
+#related {
+	height: 280px;
 	background-color: #ddd;
 }
 
 #content.grid-container {
-	height: 266px;
+	/* height: 266px; */
 }
 
 .unit {
+	/* height: 48px; */
+	background-color: #eff0ef;
+	background-color: #fff;
+}
+
+.block {
+	background-color: #0c0;
 	height: 48px;
-	background-color: #0099cc;
 }

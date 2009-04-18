@@ -6,7 +6,7 @@
 
 #page {
 	background: #fff;
-	width: 970px;
+	width: 960px;
 	margin: 24px auto;
 	overflow: hidden;
 	padding: 5px;
@@ -18,12 +18,12 @@
 }
 
 #header, #footer {
-	width: 960px;
+	width: 950px;
 	clear: both;
 }
 
 #content {
-	width: 640px;
+	width: 630px;
 }
 
 #related {
