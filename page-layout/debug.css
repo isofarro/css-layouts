@@ -1,0 +1,35 @@
+body {
+	background-color: #666;
+}
+
+#header, #footer {
+	height: 48px;
+	background-color: #ccc;
+}
+
+#content {
+}
+
+#related {
+	height: 280px;
+	background-color: #ddd;
+}
+
+#content.grid-container {
+	/* height: 266px; */
+}
+
+.unit {
+	/* height: 48px; */
+	background-color: #eff0ef;
+	background-color: #fff;
+}
+
+.block {
+	background-color: #9d9;
+	height: 48px;
+}
+#content .block {
+	background-color: #0c0;
+	height: 48px;
+}

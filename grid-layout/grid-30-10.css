@@ -1,0 +1,37 @@
+/****************************************************************************
+*
+* Grid structure 30-10
+* Grid columns are 30 pixels wide with 10px guttering
+*
+****************************************************************************/
+
+
+.span-1,  .span-1 .hero    { width:  30px; }
+.span-2,  .span-2 .hero    { width:  70px; }
+.span-3,  .span-3 .hero    { width: 110px; }
+.span-4,  .span-4 .hero    { width: 150px; }
+.span-5,  .span-5 .hero    { width: 190px; }
+.span-6,  .span-6 .hero    { width: 230px; }
+.span-7,  .span-7 .hero    { width: 270px; }
+.span-8,  .span-8 .hero    { width: 310px; }
+.span-9,  .span-9 .hero    { width: 350px; }
+.span-10, .span-10 .hero   { width: 390px; }
+.span-11, .span-11 .hero   { width: 430px; }
+.span-12, .span-12 .hero   { width: 470px; }
+.span-13, .span-13 .hero   { width: 510px; }
+.span-14, .span-14 .hero   { width: 550px; }
+.span-15, .span-15 .hero   { width: 590px; }
+.span-16, .span-16 .hero   { width: 630px; }
+.span-17, .span-17 .hero   { width: 670px; }
+.span-18, .span-18 .hero   { width: 710px; }
+.span-19, .span-19 .hero   { width: 750px; }
+.span-20, .span-20 .hero   { width: 790px; }
+.span-21, .span-21 .hero   { width: 830px; }
+.span-22, .span-22 .hero   { width: 870px; }
+.span-23, .span-23 .hero   { width: 910px; }
+.span-24, .span-24 .hero   { width: 950px; }
+.span-all, .span-all .hero { width: 950px; }
+
+
+.outer-span-24 { width: 960px; }
+ 
