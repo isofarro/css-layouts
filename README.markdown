@@ -12,6 +12,6 @@ Two approaches:
 
 Two types of grid elements:
 
-* Grid blocks for containing content
-* Grid containers for containing other grid blocks
+* Grid blocks for containing content (`block`)
+* Grid containers for containing other grid blocks (`container`)
 
