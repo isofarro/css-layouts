@@ -4,9 +4,6 @@
 *
 ****************************************************************************/
 
-.grid-container {
-	margin: 0;
-}
 
 .unit {
 	overflow: hidden;
@@ -15,6 +12,10 @@
 .block {
 	margin: 5px;
 	float: left;
+}
+
+.grid-container {
+	margin: 0;
 }
 
 .outer {

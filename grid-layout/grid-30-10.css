@@ -33,5 +33,9 @@
 .span-all, .span-all .hero { width: 950px; }
 
 
-.outer-span-24 { width: 960px; }
+.outer-span-24             { width: 960px; }
+
+.grid-container.span-8     { width: 320px; }
+.grid-container.span-16    { width: 640px; }
+.grid-container.span-24    { width: 960px; }
  
