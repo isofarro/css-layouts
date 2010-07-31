@@ -1,0 +1,46 @@
+
+
+.block {
+	float: left;
+	margin: 5px;
+}
+
+.wrap {
+	float: left;
+	overflow: hidden;
+}
+
+.wrap .block {
+	background: #999;
+}
+
+.cols-16 { width: 960px; }
+
+.cols-16 #header { width: 950px; }
+.cols-16 #footer { width: 950px; }
+
+.cols-16 .span-12, .span-12 .block { width: 710px; }
+.cols-16 .span-11, .span-11 .block { width: 650px; }
+.cols-16 .span-10, .span-10 .block { width: 590px; }
+.cols-16 .span-9,  .span-9 .block  { width: 530px; }
+.cols-16 .span-8,  .span-8 .block  { width: 470px; }
+.cols-16 .span-7,  .span-7 .block  { width: 410px; }
+.cols-16 .span-6,  .span-6 .block  { width: 350px; }
+.cols-16 .span-5,  .span-5 .block  { width: 290px; }
+.cols-16 .span-4,  .span-4 .block  { width: 230px; }
+.cols-16 .span-3,  .span-3 .block  { width: 170px; }
+.cols-16 .span-2,  .span-2 .block  { width: 110px; }
+.cols-16 .span-1,  .span-1 .block  { width:  50px; }
+
+.cols-16 .wrap.span-12 { width: 720px; }
+.cols-16 .wrap.span-11 { width: 660px; }
+.cols-16 .wrap.span-10 { width: 600px; }
+.cols-16 .wrap.span-9  { width: 540px; }
+.cols-16 .wrap.span-8  { width: 480px; }
+.cols-16 .wrap.span-7  { width: 420px; }
+.cols-16 .wrap.span-6  { width: 360px; }
+.cols-16 .wrap.span-5  { width: 300px; }
+.cols-16 .wrap.span-4  { width: 240px; }
+.cols-16 .wrap.span-3  { width: 180px; }
+.cols-16 .wrap.span-2  { width: 120px; }
+.cols-16 .wrap.span-1  { width:  60px; }

@@ -1,0 +1,22 @@
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+	background: #ebebeb;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#content {
+	background: #ccc;
+}
+
+#related {
+	background: #bbb;
+}
+
+#header, #footer {
+	float: left;
+	margin: 5px;
+	background: #aaa;
+}
