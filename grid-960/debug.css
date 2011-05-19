@@ -1,0 +1,29 @@
+/* debug styles */
+
+.debug-layout body {
+	background: #333;
+}
+
+.debug-layout .page {
+	background-color: #fff;
+}
+
+.debug-layout .page-header {
+	height: 48px;
+	background-color: #bbb;
+}
+
+.debug-layout .page-footer {
+	height: 48px;
+	background-color: #ccc;
+}
+
+.debug-layout .page-content {
+	background-color: #eee;
+	height: 256px;
+}
+
+.debug-layout .page-related {
+	background-color: #ddd;
+	height: 256px;
+}
