@@ -66,6 +66,21 @@
 
 /* content block effects */
 
+.bleed {
+	margin:  0;
+	padding: 5px;
+}
+
+.hbleed {
+	margin:  5px 0;
+	padding: 0   5px;
+}
+
+.vbleed {
+	margin:  0   5px;
+	padding: 5px 0;
+}
+
 .flush {
 	margin:  -5px -5px;
 	padding: 10px 10px;
