@@ -1,1 +1,6 @@
 /* base.css -- Base styles */
+
+p {
+	margin: 0;
+	padding: 0;
+}

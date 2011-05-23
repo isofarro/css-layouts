@@ -9,21 +9,37 @@
 }
 
 .debug-layout .page-header {
-	height: 48px;
 	background-color: #bbb;
 }
 
 .debug-layout .page-footer {
-	height: 48px;
 	background-color: #ccc;
 }
 
 .debug-layout .page-content {
 	background-color: #eee;
-	height: 256px;
 }
 
 .debug-layout .page-related {
 	background-color: #ddd;
-	height: 256px;
 }
+
+.debug-layout .page-content .module {
+	background-color: #789048;
+	padding: 5px;
+	height: 64px;
+}
+
+.debug-layout .page-related .module {
+	background-color: #607848;
+	padding: 5px;
+	height: 64px;
+}
+
+.debug-layout .page-header .module,
+.debug-layout .page-footer .module {
+	background-color: #604848;
+	padding: 5px;
+	height: 48px;
+}
+

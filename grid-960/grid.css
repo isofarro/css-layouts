@@ -32,7 +32,7 @@
 .span-11,
 .span-12 {
 	float: left;
-	margin:  5px;
+	padding:  5px;
 }
 
 .rspan-1, 
@@ -48,8 +48,39 @@
 .rspan-11,
 .rspan-12 {
 	float: right;
-	margin:  5px;
+	padding:  5px;
 }
+
+.wrap-1, 
+.wrap-2, 
+.wrap-3, 
+.wrap-4, 
+.wrap-5, 
+.wrap-6, 
+.wrap-7, 
+.wrap-8, 
+.wrap-9, 
+.wrap-10, 
+.wrap-11,
+.wrap-12 {
+	float: left;
+}
+
+.rwrap-1, 
+.rwrap-2, 
+.rwrap-3, 
+.rwrap-4, 
+.rwrap-5, 
+.rwrap-6, 
+.rwrap-7, 
+.rwrap-8, 
+.rwrap-9, 
+.rwrap-10, 
+.rwrap-11,
+.rwrap-12 {
+	float: right;
+}
+
 
 .span-1,  .rspan-1  { width: 70px; }
 .span-2,  .rspan-2  { width: 150px; }
@@ -64,35 +95,52 @@
 .span-11, .rspan-11 { width: 870px; }
 .span-12, .rspan-12 { width: 950px; }
 
+/* layout blocks with no padding or margin - for wrapping inner layout blocks */
+.wrap-1,  .rwrap-1  { width: 80px; }
+.wrap-2,  .rwrap-2  { width: 160px; }
+.wrap-3,  .rwrap-3  { width: 240px; }
+.wrap-4,  .rwrap-4  { width: 320px; }
+.wrap-5,  .rwrap-5  { width: 400px; }
+.wrap-6,  .rwrap-6  { width: 480px; }
+.wrap-7,  .rwrap-7  { width: 560px; }
+.wrap-8,  .rwrap-8  { width: 640px; }
+.wrap-9,  .rwrap-9  { width: 720px; }
+.wrap-10, .rwrap-10 { width: 800px; }
+.wrap-11, .rwrap-11 { width: 880px; }
+.wrap-12, .rwrap-12 { width: 960px; }
+
+
 /* content block effects */
 
-.bleed {
-	margin:  0;
-	padding: 5px;
+/* Swap padding for margin on a block */
+.unbleed {
+	margin:  5px;
+	padding: 0;
 }
 
-.hbleed {
-	margin:  5px 0;
-	padding: 0   5px;
-}
-
-.vbleed {
+.hunbleed {
 	margin:  0   5px;
 	padding: 5px 0;
 }
 
+.vunbleed {
+	margin:  5px 0;
+	padding: 0   5px;
+}
+
+/* Content block grabs the page-wrapper gutter */
 .flush {
 	margin:  -5px -5px;
 	padding: 10px 10px;
 }
 
 .hflush {
-	margin:  5px -5px;
-	padding: 0   10px;
+	margin:  0   -5px;
+	padding: 5px 10px;
 }
 
 .vflush {
-	margin:  -5px 5px;
-	padding: 10px 0;
+	margin:  -5px 0;
+	padding: 10px 5px;
 }
 
