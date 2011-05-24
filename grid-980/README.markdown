@@ -1,13 +1,13 @@
 
-A grid layout with balanced margins and paddings. This avoids the first/last, alpha/omega rubbish that pollutes other grid layout systems on the web. This one is based on a 12-column grid of 70 pixels each with a 10 pixel gutter (made up of 5 pixels padding around each block by default).
+A grid layout with balanced margins and paddings. This avoids the first/last, alpha/omega rubbish that pollutes other grid layout systems on the web. This one is based on a 12-column grid of 60 pixels each with a 20 pixel gutter (made up of 10 pixels padding around each block by default).
 
 A layout block is a child of the `.page` container, and has a `span-X` where X is the number of grid-columns the layout block spans.
 
-The `.page` wrapper contains a 5 pixel padding, and each layout block itself a 5 pixel padding. This creates the required 10 pixel guttering between layout block content.
+The `.page` wrapper contains a 10 pixel padding, and each layout block itself a 10 pixel padding. This creates the required 20 pixel guttering between layout block content.
 
 A `.wrap` block allows the space inside it to be split down further with `.span` layout blocks. Essentially, the `.wrap` is a margin-less and padding-less layout block, so it allows inner layout blocks to use their consistent layout padding to keep the gutter widths consistent.
 
-In situations where a layout block needs a close-cropped border, the set of `.unbleed`, `.hunbleed` and `.vunbleed` classes swap a layout block's 5 pixel paddings out for 5 pixel margin, so that a border can be applied to that layout block horizontally, vertically or both. 
+In situations where a layout block needs a close-cropped border, the set of `.unbleed`, `.hunbleed` and `.vunbleed` classes swap a layout block's 10 pixel paddings out for 10 pixel margin, so that a border can be applied to that layout block horizontally, vertically or both. 
 
 The `.flush`, `.hflush` and `.vflush` classes is for full-width layout blocks . It grabs the padding of the containing `.page` as it's own padding too. This is useful for a full-width background-colour header that stretches the entire width of the `.page` container, including all the guttering.
 
