@@ -1,0 +1,146 @@
+/* grid.css -- layout grid */
+
+.page {
+	padding: 10px;
+	width: 960px;
+	margin: 20px auto;
+}
+
+.page:after,
+.page-content:after,
+.page-related:after {
+	content:'.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/* content blocks */
+
+.span-1, 
+.span-2, 
+.span-3, 
+.span-4, 
+.span-5, 
+.span-6, 
+.span-7, 
+.span-8, 
+.span-9, 
+.span-10, 
+.span-11,
+.span-12 {
+	float: left;
+	padding: 10px;
+}
+
+.rspan-1, 
+.rspan-2, 
+.rspan-3, 
+.rspan-4, 
+.rspan-5, 
+.rspan-6, 
+.rspan-7, 
+.rspan-8, 
+.rspan-9, 
+.rspan-10, 
+.rspan-11,
+.rspan-12 {
+	float: right;
+	padding:  10px;
+}
+
+.wrap-1, 
+.wrap-2, 
+.wrap-3, 
+.wrap-4, 
+.wrap-5, 
+.wrap-6, 
+.wrap-7, 
+.wrap-8, 
+.wrap-9, 
+.wrap-10, 
+.wrap-11,
+.wrap-12 {
+	float: left;
+}
+
+.rwrap-1, 
+.rwrap-2, 
+.rwrap-3, 
+.rwrap-4, 
+.rwrap-5, 
+.rwrap-6, 
+.rwrap-7, 
+.rwrap-8, 
+.rwrap-9, 
+.rwrap-10, 
+.rwrap-11,
+.rwrap-12 {
+	float: right;
+}
+
+
+.span-1,  .rspan-1  { width: 60px; }
+.span-2,  .rspan-2  { width: 140px; }
+.span-3,  .rspan-3  { width: 220px; }
+.span-4,  .rspan-4  { width: 300px; }
+.span-5,  .rspan-5  { width: 380px; }
+.span-6,  .rspan-6  { width: 460px; }
+.span-7,  .rspan-7  { width: 540px; }
+.span-8,  .rspan-8  { width: 620px; }
+.span-9,  .rspan-9  { width: 700px; }
+.span-10, .rspan-10 { width: 780px; }
+.span-11, .rspan-11 { width: 860px; }
+.span-12, .rspan-12 { width: 940px; }
+
+/* layout blocks with no padding or margin - for wrapping inner layout blocks */
+.wrap-1,  .rwrap-1  { width: 80px; }
+.wrap-2,  .rwrap-2  { width: 160px; }
+.wrap-3,  .rwrap-3  { width: 240px; }
+.wrap-4,  .rwrap-4  { width: 320px; }
+.wrap-5,  .rwrap-5  { width: 400px; }
+.wrap-6,  .rwrap-6  { width: 480px; }
+.wrap-7,  .rwrap-7  { width: 560px; }
+.wrap-8,  .rwrap-8  { width: 640px; }
+.wrap-9,  .rwrap-9  { width: 720px; }
+.wrap-10, .rwrap-10 { width: 800px; }
+.wrap-11, .rwrap-11 { width: 880px; }
+.wrap-12, .rwrap-12 { width: 960px; }
+
+
+/* content block effects */
+
+/* Swap padding for margin on a block */
+.unbleed {
+	margin:  10px;
+	padding: 0;
+}
+
+.hunbleed {
+	margin:   0  10px;
+	padding: 10px 0;
+}
+
+.vunbleed {
+	margin: 10px 0;
+	padding: 0  10px;
+}
+
+/* Content block grabs the page-wrapper gutter */
+.flush {
+	margin: -10px -10px;
+	padding: 20px  20px;
+}
+
+.hflush {
+	margin:   0  -10px;
+	padding: 10px 20px;
+}
+
+.vflush {
+	margin: -10px  0;
+	padding: 20px 10px;
+}
+
