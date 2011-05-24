@@ -38,7 +38,7 @@ Sets up the simple grid classes, plus a few handy overrides for bleeding into th
 * `unbleed` - layout block reclaims its own padding as margin, thus allowing for a content-width border.
 * `hunbleed` - padding to margin reclaimation horizontally only
 * `vunbleed` - padding to margin reclaimation vertically only
-* `flush` - for full width blocks, just like a bleed but also claims the 5-pixel padding created by the parent `.page` wrapper. This allows for a full-width layout block that stretches flush from left to right including the guttering.
+* `flush` - for full width blocks, just like a bleed but also claims the 10-pixel padding created by the parent `.page` wrapper. This allows for a full-width layout block that stretches flush from left to right including the guttering.
 * `hflush` - reclaims all the horizontal space
 * `vflush` - reclaims all the vertical space.
 
